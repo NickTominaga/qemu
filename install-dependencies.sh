@@ -18,6 +18,7 @@ if [[ -f /etc/debian_version ]]; then
   #$APT install libsdl1.2-dev:i386  zlib1g-dev:i386  \
   #             libsdl1.2-dev:amd64 zlib1g-dev:amd64 || exit 20
   $APT install libsdl1.2-dev zlib1g-dev || exit 20
+  $APT install libpixman-1-dev || exit 20
 fi
 
 if [[ $(uname -s) = "Darwin" ]]; then

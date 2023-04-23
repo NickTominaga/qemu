@@ -136,6 +136,7 @@ if [[ ! -d $STEP_DIR ]]; then
                        --cpu=$MACHINE             \
                        --target-list=$TARGET_LIST \
                        --audio-drv-list=$AUDIO    \
+                       --python=/usr/bin/python3  \
                        --disable-bzip2            \
                        --disable-docs             \
                        --disable-gcrypt           \
